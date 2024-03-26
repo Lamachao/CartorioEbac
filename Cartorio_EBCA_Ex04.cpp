@@ -122,6 +122,7 @@ int main()
 	printf("\t1- Registrar nomes\n"); // \t = comando para dar espaçamento 
 	printf("\t2- Consultar nomes\n");
 	printf("\t3- Deletar nomes\n\n");
+	printf("\t4- Sair do Programa! \n\n");
 	printf("Qual opção deseja escolher?"); // fim do menu 
 		
 	scanf("%d", &opcao);
@@ -140,6 +141,11 @@ int main()
 		
 		case 3:
 	    deletar();
+		break;
+		
+		case 4:
+		printf("Obrigado! Até mais!");
+		return 0;
 		break;
 		
 		
